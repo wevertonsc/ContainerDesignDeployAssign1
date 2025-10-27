@@ -1,0 +1,13 @@
+# This is an academic project for the Master's program at TUS Midlands.
+# Academic Project - TUS Midlands 2025
+# Student: Weverton de Souza Castanho
+
+version: '3.8'
+
+services:
+  fastapi-server:
+    build: .
+    container_name: fastapi-load-simulator
+    ports:
+      - "8000:8000"
+    restart: always
