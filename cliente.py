@@ -21,7 +21,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-SERVER_URL = "http://127.0.0.1:8000"
+SERVER_URL = "http://127.0.0.1:80"
+#SERVER_URL = "ec2-3-252-55-195.eu-west-1.compute.amazonaws.com:8000"
+
+
 
 # Iteration levels for heavy load testing
 ITERATION_LEVELS = [10_000_000, 50_000_000, 100_000_000]
